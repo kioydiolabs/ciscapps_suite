@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  api:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - stocks_api_key="YOUR_ALPHAVANTAGE_API_KEY_HERE"
+      - api_hostname="YOUR_IP_OR_DOMAIN_THAT_THE_API_IS_HOSTED_ON"
+      # the variable above can either be an IP or a domain. it CANNOT be changed later. Keep in mind that the API listens on port 80.
