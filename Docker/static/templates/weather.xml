@@ -1,0 +1,14 @@
+<CiscoIPPhoneText>
+<Title>Current Weather</Title>
+<Text>
+{{city}}, {{region}}, {{country}}
+
+Temperature : {{temperature}}C
+Precipitation : {{precipitation}}mm
+Wind speed : {{w_speed}}m/s
+Wind gusts : {{wg_speed}}m/s
+Humidity : {{humidity}}%
+
+Last Updated : {{last_update}}
+</Text>
+</CiscoIPPhoneText>

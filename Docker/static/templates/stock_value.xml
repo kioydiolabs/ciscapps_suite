@@ -1,0 +1,9 @@
+<CiscoIPPhoneText>
+<Title>Stock value for {{symbol}}</Title>
+<Text>
+Symbol : {{symbol}}
+Value : {{price}}$
+Change : {{change}}$ ({{up_or_down}})
+Change (%) : {{change_percent}}
+</Text>
+</CiscoIPPhoneText>

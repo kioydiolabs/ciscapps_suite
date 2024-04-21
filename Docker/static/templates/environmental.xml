@@ -1,0 +1,12 @@
+<CiscoIPPhoneMenu>
+  <Title>CISCAPPS Weather Apps</Title>
+  <Prompt>Select an app :</Prompt>
+ <MenuItem>
+  <Name>Weather</Name>
+  <URL>{{hostname}}/getWeather/</URL>
+ </MenuItem>
+ <MenuItem>
+   <Name>Air Quality</Name>
+   <URL>{{hostname}}/getAqi/</URL>
+ </MenuItem>
+</CiscoIPPhoneMenu>

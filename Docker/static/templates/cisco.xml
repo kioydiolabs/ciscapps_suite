@@ -1,0 +1,20 @@
+<CiscoIPPhoneMenu>
+  <Title>CISCAPPS Suite</Title>
+  <Prompt>Welcome! Select an application :</Prompt>
+  <MenuItem>
+   <Name>Environmental</Name>
+   <URL>{{hostname}}/getEnvApps/</URL>
+  </MenuItem>
+  <MenuItem>
+   <Name>Stock</Name>
+   <URL>{{hostname}}/getStock/</URL>
+  </MenuItem>
+  <MenuItem>
+   <Name>Games</Name>
+   <URL>{{hostname}}/getGamesList/</URL>
+  </MenuItem>
+  <MenuItem>
+   <Name>Turn screen off</Name>
+   <URL>{{hostname}}/scrOff/</URL>
+  </MenuItem>
+</CiscoIPPhoneMenu>

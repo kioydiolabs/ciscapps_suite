@@ -1,0 +1,4 @@
+<CiscoIPPhoneExecute>
+<ExecuteItem URL="Display:Off:0"/>
+<ExecuteItem URL="Init:Services"/>
+</CiscoIPPhoneExecute>
