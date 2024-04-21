@@ -1,0 +1,10 @@
+<CiscoIPPhoneInput>
+    <Title>CISCAPPS Weather</Title>
+    <Prompt>Search for a city/area :</Prompt>
+    <URL>{{hostname}}/geocode-weather/</URL>
+    <InputItem>
+      <DisplayName>Search </DisplayName>
+      <QueryStringParam>name</QueryStringParam>
+      <InputFlags>A</InputFlags>
+    </InputItem>
+</CiscoIPPhoneInput>

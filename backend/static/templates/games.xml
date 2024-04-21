@@ -1,0 +1,8 @@
+<CiscoIPPhoneMenu>
+  <Title>CISCAPPS Games</Title>
+  <Prompt>Select a game :</Prompt>
+ <MenuItem>
+  <Name>Rock, Paper, Scissors</Name>
+  <URL>{{hostname}}/playRps/</URL>
+ </MenuItem>
+</CiscoIPPhoneMenu>

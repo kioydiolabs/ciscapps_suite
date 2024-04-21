@@ -1,0 +1,34 @@
+<CiscoIPPhoneText>
+  <Title>Cisco Help - KIOYDIOLABS.ORG</Title>
+  <Text>
+Service Help
+----------------
+The "School Schedule" service allows users to view the school schedule for the next day.
+
+The "CCTV" service allows users to view the latest frame of all CCTV cameras.
+
+The "Phonebooks" service provides multiple phonebooks each helpful for something specific.
+
+
+For technical support with your Cisco IP Phone please dial the internal Cisco Support Hotline at 2075 or press "Support" below.
+
+
+Press "Exit" to get to your home screen.
+  </Text>
+
+  <SoftKeyItem>
+  <Name>Update</Name>
+  <URL>SoftKey:Update</URL>
+  <Position>4</Position>
+  </SoftKeyItem>
+  <SoftKeyItem>
+  <Name>Exit</Name>
+  <URL>SoftKey:Exit</URL>
+  <Position>3</Position>
+  </SoftKeyItem>
+  <SoftKeyItem>
+  <Name>Support</Name>
+  <URL>Dial:2075</URL>
+  <Position>1</Position>
+  </SoftKeyItem>
+</CiscoIPPhoneText>

@@ -1,0 +1,13 @@
+<CiscoIPPhoneText>
+<Title>Rock, Paper, Scissors</Title>
+<Text>
+Phone's Choice : {{computer}}
+
+{{result}}
+</Text>
+<SoftKeyItem>
+    <Name>Play again</Name>
+    <URL>{{hostname}}/playRps/</URL>
+    <Position>1</Position>
+</SoftKeyItem>
+</CiscoIPPhoneText>

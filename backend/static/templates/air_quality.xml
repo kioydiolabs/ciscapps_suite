@@ -1,0 +1,11 @@
+<CiscoIPPhoneText>
+<Title>Current Air Quality</Title>
+<Text>
+{{city}}, {{region}}, {{country}}
+
+Dust : {{dust}}
+Air Quality (US AQI) : {{air_quality}}
+
+Last Updated : {{last_update}}
+</Text>
+</CiscoIPPhoneText>

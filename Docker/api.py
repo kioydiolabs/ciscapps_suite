@@ -172,7 +172,7 @@ def weather():
     region = request.args.get("region").replace("_", " ")
     country = request.args.get("country")
     
-    # Setup the Open-Meteo API client with cache and retry on error
+    # Setup the Open-Meteo backend client with cache and retry on error
     cache_session = requests_cache.CachedSession('.cache', expire_after = 3600)
     retry_session = retry(cache_session, retries = 5, backoff_factor = 0.2)
     openmeteo = openmeteo_requests.Client(session = retry_session)

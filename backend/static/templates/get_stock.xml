@@ -1,0 +1,10 @@
+<CiscoIPPhoneInput>
+    <Title>Get stock value</Title>
+    <Prompt>Enter the stock symbol :</Prompt>
+    <URL>{{hostname}}/stock-price/</URL>
+    <InputItem>
+      <DisplayName>Symbol (eg. MSFT)</DisplayName>
+      <QueryStringParam>symbol</QueryStringParam>
+      <InputFlags>A</InputFlags>
+    </InputItem>
+</CiscoIPPhoneInput>
