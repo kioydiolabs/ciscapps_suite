@@ -173,6 +173,9 @@ h3{
     transform: translateY(100vh);
     animation: flyUp 1.6s forwards;
     animation-delay: 1.6s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
