@@ -1,7 +1,12 @@
+@font-face {
+    font-family: "Firacode";
+    src: url("./static/fonts/FiraCode-VF.woff");
+}
+
 body{
     background-color: #1d1e24;
     color: white;
-    font-family: Fira Code;
+    font-family: Firacode, Arial, serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,8 +48,9 @@ body::-webkit-scrollbar { /* WebKit */
     padding-right: 10px;
     border-radius: 30px;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     transition: 0.2s;
+    font-family: Firacode, Arial, serif;
 }
 
 #header a{
@@ -149,7 +155,7 @@ h3{
     padding-left: 20px;
     left: 0px;
     color: rgba(255, 255, 255, 0.24);
-    font-weight: bold;
+    font-weight: lighter;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 3.5s;
