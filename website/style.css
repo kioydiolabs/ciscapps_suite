@@ -145,10 +145,10 @@ h3{
 #footer{
     /*border: 1px dashed white;*/
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
     padding-left: 20px;
-    left: 10px;
-    color: rgba(255, 255, 255, 0.32);
+    left: 0px;
+    color: rgba(255, 255, 255, 0.24);
     font-weight: bold;
     opacity: 0;
     animation: fadeIn 1s forwards;
