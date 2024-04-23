@@ -3,6 +3,14 @@
     src: url("./static/fonts/FiraCode-VF.woff");
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 body{
     background-color: #1d1e24;
     color: white;
@@ -80,6 +88,7 @@ body::-webkit-scrollbar { /* WebKit */
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 0.3s;
+    margin-bottom: 10px;
 }
 
 #textOuter{
@@ -145,6 +154,25 @@ h3{
     transform: translateY(100vh);
     animation: flyUp 1.6s forwards;
     animation-delay: 1.4s;
+}
+#tb4 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+#tb4 a span{
+    margin-left: 10px;
+    text-decoration: none;
+}
+#tb4 p{
+    text-decoration: underline;
+    margin: 0px;
+}
+#tb4{
+    transform: translateY(100vh);
+    animation: flyUp 1.6s forwards;
+    animation-delay: 1.6s;
 }
 
 
