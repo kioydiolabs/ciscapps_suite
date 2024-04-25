@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Web" type="StardustRunConfiguration" factoryName="save-as-zip">
+    <option name="folderPath" value="$PROJECT_DIR$" />
+    <option name="instanceId" value="cd" />
+    <option name="instanceName" value="CISCAPPS Documentation" />
+    <method v="2" />
+  </configuration>
+</component>
