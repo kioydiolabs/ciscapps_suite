@@ -7,7 +7,15 @@
         <variables>
             <noindex-content>true</noindex-content>
             <offline-docs>false</offline-docs>
+            <primary-color>aqua</primary-color>
+            <custom-favicons>headerFullSize.png</custom-favicons>
+            <header-logo>headerFullSize.png</header-logo>
+            <product-web-url>https://ciscapps.kioydiolabs.org/</product-web-url>
+            <download-title>CISCAPPS</download-title>
+            <download-page>https://ciscapps.kioydiolabs.org</download-page>
+            <showDownloadButton>true</showDownloadButton>
         </variables>
+
     </build-profile>
 
     <sitemap priority="0.35" change-frequency="monthly"/>
