@@ -12,4 +12,8 @@
         <toc-element topic="Modify-Configuration-File.md"/>
         <toc-element topic="Deploy-CISCAPPS.md"/>
     </toc-element>
+    <toc-element topic="Deskphone-Configuration.md">
+        <toc-element topic="freePbxChanSCCP.md"/>
+        <toc-element topic="XML-Files-Manual-Configuration.md"/>
+    </toc-element>
 </instance-profile>

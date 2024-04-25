@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PDF (cd)" type="StardustRunConfiguration" factoryName="build-pdf">
+    <option name="addCover" value="true" />
+    <option name="addFooter" value="true" />
+    <option name="addHeader" value="true" />
+    <option name="copyright" value="KIOYDIOLABS © 2024" />
+    <option name="description" />
+    <option name="folderPath" value="$PROJECT_DIR$" />
+    <option name="footer" value="KIOYDIOLABS © 2024" />
+    <option name="header" value="CISCAPPS Documentation | KIOYDIOLABS" />
+    <option name="instanceId" value="cd" />
+    <option name="instanceName" value="CISCAPPS Documentation" />
+    <option name="layout" />
+    <option name="logoPath" value="$PROJECT_DIR$/website/static/images/headerFullSize.jpg" />
+    <option name="title" value="CISCAPPS Documentation | KIOYDIOLABS" />
+    <method v="2" />
+  </configuration>
+</component>
