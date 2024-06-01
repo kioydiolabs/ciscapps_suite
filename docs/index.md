@@ -6,6 +6,7 @@ hero:
   name: "CISCAPPS"
   text: "KioydioLabs"
   tagline: Web services for Cisco IP deskphones.
+  pageClass: indexpage
   actions:
     - theme: brand
       text: Get Started
@@ -15,11 +16,12 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Realtime Data
+    details: Get real time data such as weather information directly on your deskphone.
+    icon: <img src='./public/realtime.png'>
+  - title: Customizable
+    details: You can customize CISCAPPS to you or your company's needs.
+  - title: OpenSource
+    details: CISCAPPS is fully opensource on GitHub so you can add your own apps to it!
 ---
 
