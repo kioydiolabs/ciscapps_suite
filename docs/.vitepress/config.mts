@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "CISCAPPS",
-  description: "A KioydioLabs product.",
+  description: "OpenSource web apps for Cisco IP deskphones created by KioydioLabs.",
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }],
     ['meta', { name: 'theme-color', content: '#007bdf' }]

@@ -6,7 +6,7 @@ pageClass: indexpage
 hero:
   name: "CISCAPPS"
   text: "KioydioLabs"
-  tagline: Web services for Cisco IP deskphones.
+  tagline: Web apps for Cisco IP deskphones.
   actions:
     - theme: brand
       text: Get Started
