@@ -13,6 +13,10 @@ _rock paper scissors_ game for anyone who has a 79XX deskphone and wants to
 experiment with it, or even for businesses who still use them.
 
 ## How to configure CISCAPPS
+
+> [!CAUTION]
+> **This guide is no longer being maintained. For the latest updated CISCAPPS documentation visit [https://ciscapps.kioydiolabs.org](https://ciscapps.kioydiolabs.org).**
+
 Configuring CISCAPPS is really simple. Just use the **Docker Compose** to
 pull the image from **Docker Hub** and deploy a container.
 
