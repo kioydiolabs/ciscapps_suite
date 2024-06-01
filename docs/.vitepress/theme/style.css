@@ -137,6 +137,6 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-.indexpage .icon{
-    border-radius: 10px;
+.indexpage .icon img{
+    border-radius: 6px;
 }

@@ -13,10 +13,26 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
+        link: '/introduction',
+      },
+      {
+        text: 'Docker Installation',
+        link: '/docker-installation',
+        collapsed: true,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Installing requirements', link: '/installing-requirements' },
+          { text: 'Modify the configuration file', link: '/modify-configuration-file' },
+          { text: 'Deploy CISCAPPS', link: '/deploy-ciscapps' }
+        ]
+      },
+      {
+        text: 'Deskphone Configuration',
+        link: '/deskphone-configuration',
+        collapsed: true,
+        items: [
+            { text: 'FreePBX Configuration', link: '/free-pbx-configuration' },
+            { text: 'XML File Configuration (Manual)', link: '/xml-file-manual-configuration' }
         ]
       }
     ],
