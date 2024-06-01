@@ -1,12 +1,12 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+pageClass: indexpage
 
 hero:
   name: "CISCAPPS"
   text: "KioydioLabs"
   tagline: Web services for Cisco IP deskphones.
-  pageClass: indexpage
   actions:
     - theme: brand
       text: Get Started
