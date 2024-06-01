@@ -4,11 +4,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CISCAPPS",
   description: "A KioydioLabs product.",
+  head: [
+    ['link', { rel: 'icon', href: '/logo.jpg' }],
+    ['meta', { name: 'theme-color', content: '#007bdf' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
     },
+    logo: '/logo.jpg',
     nav: [
       { text: 'Home', link: '/' }
     ],
