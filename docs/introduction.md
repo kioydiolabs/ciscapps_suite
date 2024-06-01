@@ -12,4 +12,4 @@ paper, scissors anyone who has a 79XX deskphone and wants to experiment with it,
 or even for businesses who still use them.
 
 ## Configuring CISCAPPS
-[Installation and configuration instructions](Installation.md)
+[Installation and configuration instructions](docker-installation)
