@@ -10,20 +10,20 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /introduction
+      link: /docker-installation
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Introduction
+      link: /introduction
 
 features:
   - title: Realtime Data
     details: Get real time data such as weather information directly on your deskphone.
-    icon: <images src='./public/realtime.png'>
+    icon: <images src='/realtime.png'>
   - title: Customizable
     details: You can customize CISCAPPS to you or your company's needs.
-    icon: <images src='./public/settings.png'>
+    icon: <images src='/settings.png'>
   - title: OpenSource
     details: CISCAPPS is fully opensource on GitHub so you can add your own apps to it!
-    icon: <images src='./public/github.png'>
+    icon: <images src='/github.png'>
 ---
 

@@ -6,11 +6,16 @@ export default defineConfig({
   description: "A KioydioLabs product.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
-
+    footer: {
+      message: 'Released under the BSD 3-Clause License',
+      copyright: 'KIOYDIOLABS © 2024'
+    },
     sidebar: [
       {
         text: 'Introduction',
